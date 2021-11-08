@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Testing
+permalink: /testing/
 ---
 
 # Testing plugin
@@ -23,7 +23,7 @@ To perform local testing the 'run-docker-tests.sh' can be used. The shell script
 3. Type "./run-docker-test.sh" and press enter;
 4. The result should be as follows:
 
-![segment_center](https://github.com/kartoza/stream_feature_extractor/blob/develop/help/source/examples/local_testing.png)
+![segment_center](https://github.com/vermeulendivan/vermeulendivan.github.io/blob/main/images/testing/local_testing.png)
 
 5. If there is any errors the user will need to investigate.
 
@@ -33,18 +33,18 @@ Tests can manually be performed, but the action should execute automatically. He
 2. Click on the Run workflow drop-down and select the Branch you want to perform the test on;
 3. Click Run workflow;
 
-![actions](https://github.com/kartoza/stream_feature_extractor/blob/develop/help/source/examples/github_actions.png)
+![actions](https://github.com/vermeulendivan/vermeulendivan.github.io/blob/main/images/testing/github_actions.png)
 
 4. Processing might take a while, especially if the docker images needs to be pulled;
 5. If processing is done, check if the one of the jobs succeeded or failed.
 
 Failed:
 
-![failed](https://github.com/kartoza/stream_feature_extractor/blob/develop/help/source/examples/failed.png)
+![failed](https://github.com/vermeulendivan/vermeulendivan.github.io/blob/main/images/testing/failed.png)
 
 Success:
 
-![success](https://github.com/kartoza/stream_feature_extractor/blob/develop/help/source/examples/success.png)
+![success](https://github.com/vermeulendivan/vermeulendivan.github.io/blob/main/images/testing/success.png)
 
 ### Failed
 If the testing failed, the user needs to investigate the cause of the error. Here is a quick guide on how to do this:
@@ -52,17 +52,17 @@ If the testing failed, the user needs to investigate the cause of the error. Her
 2. Select the job which failed (e.g. ‘test (release-3_16)’);
 3. The user will be presented with the job steps. Select the job which failed (e.g. ‘Run test suite’);
 
-![success](https://github.com/kartoza/stream_feature_extractor/blob/develop/help/source/examples/job_steps.png)
+![success](https://github.com/vermeulendivan/vermeulendivan.github.io/blob/main/images/testing/job_steps.png)
 
 4. A list of print lines will be shown, with the error at the end; and
 
-![error](https://github.com/kartoza/stream_feature_extractor/blob/develop/help/source/examples/error_msg.png)
+![error](https://github.com/vermeulendivan/vermeulendivan.github.io/blob/main/images/testing/error_msg.png)
 
 5. Investigate the code to which the error relates to the method performed during that test. Having a look at the data used for the test may also be useful.
 
 ### Success
 There should be no issue if the tests does not fail. The jobs will be similar to the following:
 
-![jobs_success](https://github.com/kartoza/stream_feature_extractor/blob/develop/help/source/examples/jobs_success.png)
+![jobs_success](https://github.com/vermeulendivan/vermeulendivan.github.io/blob/main/images/testing/jobs_success.png)
 
 The plugin and any updates to the plugin should work with no issue for each of the QGIS versions in the above list.
