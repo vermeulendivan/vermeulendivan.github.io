@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+## Stream feature extractor
 
-You can use the [editor on GitHub](https://github.com/vermeulendivan/vermeulendivan.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+A QGIS plugin to extract stream features (wells, sinks, confluences etc.)
+from a stream network. The easiest way to install this plugin is to use
+the QGIS plugin manager to install it (just search for 'stream' in the
+plugin manager).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+Visit our [home page](https://github.com/kartoza/stream_feature_extractor) for more details.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+This plugin is Free and Open Source Software and is released under the GPL V2.
+See the LICENSE file included with the plugin (and in this repository) for
+more information about this license.
 
-```markdown
-Syntax highlighted code block
+## Installation of the plugin
+The easiest approach will be to install the plugin using the QGIS plugin manager:
+1. In QGIS, go to Plugins > Manage and install plugins;
+2. Select the All tab;
+3. In the search bar, type 'stream feature extractor'; and
+4. Select the plugin and click on the Install button.
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/vermeulendivan/vermeulendivan.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+![plugin_management](https://github.com/kartoza/stream_feature_extractor/blob/develop/help/source/examples/plugin_install.png)
