@@ -93,3 +93,13 @@ There should be no issue if the tests does not fail. The jobs will be similar to
 ![jobs_success](/images/testing/jobs_success.png)
 
 The plugin and any updates to the plugin should work with no issue for each of the QGIS versions in the above list.
+
+# Contributing
+
+If you would like to contribute an enhancement, bug fix, translation etc. to
+this plugin, please make a fork of the repository on Github at:
+
+https://github.com/kartoza/stream_feature_extractor
+
+Then make your improvements and make a Github pull request. Please follow
+the existing coding conventions if you want us to include your changes.
