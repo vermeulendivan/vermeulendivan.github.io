@@ -2,8 +2,6 @@
 layout: home
 ---
 
-# Introduction
-
 A QGIS plugin to extract stream features (wells, sinks, confluences etc.)
 from a stream network. The easiest way to install this plugin is to use
 the QGIS plugin manager to install it (just search for 'stream feature extractor' in the
