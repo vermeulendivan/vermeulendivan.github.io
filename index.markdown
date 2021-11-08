@@ -1,5 +1,7 @@
 ---
 layout: home
+title: Home
+permalink: /home/
 ---
 
 ![qgis_ui](/images/ui/qgis_ui.png)
