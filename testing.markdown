@@ -20,22 +20,20 @@ To perform local testing the 'run-docker-tests.sh' can be used. The shell script
 1. Open your terminal/console;
 2. Go to the root directory of the plugin;
 3. Type "./run-docker-test.sh" and press enter;
-4. The result should be as follows:
+4. The result should be similar to the figure which follows;
+5. If there is any errors the user will need to investigate.
 
 ![segment_center](/images/testing/local_testing.png)
-
-5. If there is any errors the user will need to investigate.
 
 ## Github actions
 Tests can manually be performed, but the action should execute automatically. Here is the steps for manual execution:
 1. On the repository click on the Actions tab, and select the ‘Test’ worksflow (will execute .github/workflows/test.yml);
 2. Click on the Run workflow drop-down and select the Branch you want to perform the test on;
 3. Click Run workflow;
+4. Processing might take a while, especially if the docker images needs to be pulled; and
+5. If processing is done, check if the one of the jobs succeeded or failed.
 
 ![actions](/images/testing/github_actions.png)
-
-4. Processing might take a while, especially if the docker images needs to be pulled;
-5. If processing is done, check if the one of the jobs succeeded or failed.
 
 Failed:
 
