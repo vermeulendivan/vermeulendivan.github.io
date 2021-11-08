@@ -1,10 +1,40 @@
 ---
 layout: page
-title: Testing
-permalink: /testing/
+title: Development
+permalink: /development/
 ---
 
-The plugin or changes to the plugin can be tested using Github Actions (https://github.com/kartoza/stream_feature_extractor/actions).
+The general instructions for development are:
+1. Fork the code repository;
+2. Clone your fork;
+3. Work on a feature/bug on a new branch; and
+4. When done, submit a push request for your code to be reviewed and merged.
+
+# Testing the plugin
+
+# QGIS testing
+To test changes to the plugin within QGIS, best will be to install 'Plugin reloader':
+- In QGIS, go to Plugins > Manage and install plugins;
+- Click on the All tab;
+- In the search bar, type 'plugin reloader'; and
+- Click on the Install button.
+
+![reloader_plugin](/images/ui/plugin_reloader.png)
+
+This plugin allows the user to make changes to the plugin code without the need to close and reopen QGIS:
+- Click on the 'Plugin reloader' button;
+- Select Configure;
+
+![reloader_button](/images/ui/reload_icon.png)
+
+- Set it to the 'stream_feature_extractor' plugin.
+
+![reloader_config](/images/ui/reloader_config.png)
+
+The user can now click on the button to reload a plugin if changes were made.
+
+## Automated testing
+The plugin or changes to the plugin can be tested locally using shell scripts or remotely using Github Actions (https://github.com/kartoza/stream_feature_extractor/actions).
 Tests will be performed on each of the methods (e.g. feature extraction) by comparing the result to existing data in the ‘/test’ folder. The following QGIS versions are tested:
 1. 3.10;
 2. 3.12;
@@ -15,7 +45,7 @@ Tests will be performed on each of the methods (e.g. feature extraction) by comp
 7. 3.22; and
 8. latest version.
 
-## Local testing
+### Local testing
 To perform local testing the 'run-docker-tests.sh' can be used. The shell script can be used as follows:
 1. Open your terminal/console;
 2. Go to the root directory of the plugin;
@@ -25,8 +55,8 @@ To perform local testing the 'run-docker-tests.sh' can be used. The shell script
 
 ![segment_center](/images/testing/local_testing.png)
 
-## Github actions
-Tests can manually be performed, but the action should execute automatically. Here is the steps for manual execution:
+### Github actions
+Tests will be performed when a PR is performed, but tests can also be performed manually if required. Here is the steps for manual execution:
 1. On the repository click on the Actions tab, and select the ‘Test’ worksflow (will execute .github/workflows/test.yml);
 2. Click on the Run workflow drop-down and select the Branch you want to perform the test on;
 3. Click Run workflow;
@@ -43,7 +73,7 @@ Success:
 
 ![success](/images/testing/success.png)
 
-### Failed
+#### Failed
 If the testing failed, the user needs to investigate the cause of the error. Here is a quick guide on how to do this:
 1. Select the test which failed;
 2. Select the job which failed (e.g. ‘test (release-3_16)’);
@@ -57,7 +87,7 @@ If the testing failed, the user needs to investigate the cause of the error. Her
 
 5. Investigate the code to which the error relates to the method performed during that test. Having a look at the data used for the test may also be useful.
 
-### Success
+#### Success
 There should be no issue if the tests does not fail. The jobs will be similar to the following:
 
 ![jobs_success](/images/testing/jobs_success.png)
