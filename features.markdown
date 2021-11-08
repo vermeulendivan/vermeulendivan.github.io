@@ -4,7 +4,6 @@ title: Features
 permalink: /features/
 ---
 
-# Feature definitions
 There are 11 types of features which can be extracted from a stream network:
 
 1. Crossing: When two lines cross each other.
