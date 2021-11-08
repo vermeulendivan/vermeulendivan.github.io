@@ -22,10 +22,8 @@ title: Stream feature extractor
 email: tim@kartoza
 description: >- # this means to ignore newlines until "baseurl:"
   Extracts stream features from a stream network.
-baseurl: "vermeulendivan.github.io" # the subpath of your site, e.g. /blog
-url: "https://vermeulendivan.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 theme: minima
