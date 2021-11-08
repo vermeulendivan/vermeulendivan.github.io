@@ -4,7 +4,6 @@ title: Testing
 permalink: /testing/
 ---
 
-# Testing plugin
 The plugin or changes to the plugin can be tested using Github Actions (https://github.com/kartoza/stream_feature_extractor/actions).
 Tests will be performed on each of the methods (e.g. feature extraction) by comparing the result to existing data in the ‘/test’ folder. The following QGIS versions are tested:
 1. 3.10;
