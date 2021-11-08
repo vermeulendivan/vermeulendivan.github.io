@@ -13,7 +13,7 @@ the QGIS plugin manager to install it (just search for 'stream' in the
 plugin manager).
 
 
-Visit our [home page](https://github.com/kartoza/stream_feature_extractor) for more details.
+Visit our [home page](https://github.com/kartoza/stream_feature_extractor) for the plugin repository.
 
 This plugin is Free and Open Source Software and is released under the GPL V2.
 See the LICENSE file included with the plugin (and in this repository) for
@@ -26,4 +26,4 @@ The easiest approach will be to install the plugin using the QGIS plugin manager
 3. In the search bar, type 'stream feature extractor'; and
 4. Select the plugin and click on the Install button.
 
-![plugin_management](https://github.com/kartoza/stream_feature_extractor/blob/develop/help/source/examples/plugin_install.png)
+![plugin_management](https://github.com/vermeulendivan/vermeulendivan.github.io/blob/main/images/ui/plugin_install.png)
