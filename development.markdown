@@ -77,17 +77,17 @@ Success:
 
 #### Failed
 If the testing failed, the user needs to investigate the cause of the error. Here is a quick guide on how to do this:
-1. Select the test which failed;
-2. Select the job which failed (e.g. ‘test (release-3_16)’);
-3. The user will be presented with the job steps. Select the job which failed (e.g. ‘Run test suite’);
+- Select the test which failed;
+- Select the job which failed (e.g. ‘test (release-3_16)’);
+- The user will be presented with the job steps. Select the job which failed (e.g. ‘Run test suite’);
 
 ![success](/images/testing/job_steps.png)
 
-4. A list of print lines will be shown, with the error at the end; and
+- A list of print lines will be shown, with the error at the end; and
 
 ![error](/images/testing/error_msg.png)
 
-5. Investigate the code to which the error relates to the method performed during that test. Having a look at the data used for the test may also be useful.
+- Investigate the code to which the error relates to the method performed during that test. Having a look at the data used for the test may also be useful.
 
 #### Success
 There should be no issue if the tests does not fail. The jobs will be similar to the following:
