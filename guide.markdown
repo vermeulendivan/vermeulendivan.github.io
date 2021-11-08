@@ -12,7 +12,7 @@ The plugin is user-friendly and extractions can be done as follows:
 
 ![icon](/images/ui/toolbar_icon.png)
 
-4. (optional method) Vector > Stream feature extractor > Extract stream features from current layer.
+- (optional method) Vector > Stream feature extractor > Extract stream features from current layer.
 
 # Intermediate layer
 Intermediate layer is a temporary layer that is used for helping the tool to identify the nodes. You can show it when you run the tool by check the option
