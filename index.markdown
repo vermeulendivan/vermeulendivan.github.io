@@ -26,4 +26,4 @@ The easiest approach will be to install the plugin using the QGIS plugin manager
 3. In the search bar, type 'stream feature extractor'; and
 4. Select the plugin and click on the Install button.
 
-![plugin_management](https://github.com/vermeulendivan/vermeulendivan.github.io/blob/main/images/ui/plugin_install.png)
+![plugin_management](/images/ui/plugin_install.png)
