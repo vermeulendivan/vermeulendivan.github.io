@@ -6,7 +6,7 @@ layout: home
 
 A QGIS plugin to extract stream features (wells, sinks, confluences etc.)
 from a stream network. The easiest way to install this plugin is to use
-the QGIS plugin manager to install it (just search for 'stream' in the
+the QGIS plugin manager to install it (just search for 'stream feature extractor' in the
 plugin manager).
 
 The source code can be found [here](https://github.com/kartoza/stream_feature_extractor).
