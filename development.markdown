@@ -31,7 +31,9 @@ This plugin allows the user to make changes to the plugin code without the need 
 
 ![reloader_config](/images/ui/reloader_config.png)
 
-The user can now click on the button to reload a plugin if changes were made.
+Clicking on the button to reload a plugin if changes were made without the need to close and reopen QGIS. The plugins folder for QGIS can be found here:
+- Windows: C:\Users\YOUR_USER_NAME\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\
+- Linux: Home\.local\share\QGIS\QGIS3\profiles\default\python\plugins\
 
 ## Automated testing
 The plugin or changes to the plugin can be tested locally using shell scripts or remotely using Github Actions (https://github.com/kartoza/stream_feature_extractor/actions).
