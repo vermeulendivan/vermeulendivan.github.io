@@ -10,7 +10,7 @@ The plugin is user-friendly and extractions can be done as follows:
 2. Select the layer; and
 3. Click on the stream feature extractor icon in the toolbar. The features will be extracted for the selected layer.
 
-![icon](https://github.com/vermeulendivan/vermeulendivan.github.io/blob/main/images/ui/toolbar_icon.png)
+![icon](/images/ui/toolbar_icon.png)
 
 4. (optional method) Vector > Stream feature extractor > Extract stream features from current layer.
 
@@ -20,4 +20,4 @@ Possible parameters or settings for the plugin can be set. Go to Vector > Stream
 2. Show intermediate node count layer: An intermediate layer which were used to extract the feature is loaded to QGIS; and
 3. Enabling this will submit errors to the server for debugging.
 
-![options](https://github.com/vermeulendivan/vermeulendivan.github.io/blob/main/images/ui/options_dialog.png)
+![options](/images/ui/options_dialog.png)
