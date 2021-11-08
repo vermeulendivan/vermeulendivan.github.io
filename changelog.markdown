@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Changelog
+permalink: /changelog/
 ---
 
 All notable changes to this project will be documented in this file.
